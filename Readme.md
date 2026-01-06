@@ -35,12 +35,7 @@ This repository provides a comprehensive template for backend projects, designed
 
 [Node.js](https://nodejs.org/en/) | [Express](https://expressjs.com/) | [PostgreSQL](https://www.postgresql.org/) | [Prisma ORM](https://www.prisma.io/) | [JWT](https://jwt.io/) | [Bcrypt](https://www.npmjs.com/package/bcrypt) | [Joi](https://www.npmjs.com/package/joi)
 
-### Prerequisites
 
-Make sure you have the following dependencies installed on your machine:
-
-- Node.js - [Download and install Node.js](https://nodejs.org/en/download/)
-- PostgreSQL - [Download and install PostgreSQL](https://www.postgresql.org/download/)
 
 ---
 
@@ -55,19 +50,9 @@ If you're new to backend development, here are some resources to help you get st
 - **[MDN Web Docs: HTTP Basics](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)**: Understand the basics of HTTP, the protocol used by web servers and clients. 🌐
 - **[Codecademy: Learn Node.js](https://www.codecademy.com/learn/learn-node-js)**: An interactive course to help you learn Node.js from scratch. 🎓
 
-### Prisma ORM
 
-- **[Prisma Official Documentation](https://www.prisma.io/docs/)**: Learn about Prisma and how to use it for database interactions. 🔍
 
-### Git and GitHub 🛠️
 
-- **[Git Documentation](https://git-scm.com/doc)**: Learn how to use Git for version control. 🔄
-- **[GitHub Guides](https://guides.github.com/)**: Explore guides on using GitHub to host your code and collaborate with others. 🤝
-
-### Additional Learning Paths
-
-- **[FreeCodeCamp: Backend Development](https://www.freecodecamp.org/learn/back-end-development-and-apis/)**: Free courses on backend development and APIs. 🆓
-- **[The Odin Project: Node.js](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs)**: A comprehensive course on backend development with Node.js. 🛤️
 
 ---
 
@@ -115,48 +100,8 @@ For more detailed information on each folder and file, please refer to the corre
 
 For detailed instructions on how to use this template, including examples, please refer to the [Usage Guide](documents/usage.md). Follow these steps to get started: 🚀
 
-### Getting Started
 
-1. Clone this repository to your local machine using the following command:
 
-   ```bash
-      git clone https://github.com/MettaSurendhar/node-express-backend-template-using-prisma.git <project_name>
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-      cd <project_name>
-   ```
-
-3. Install the dependencies:
-
-   ```bash
-      npm install
-   ```
-
-4. Create a new PostgreSQL database for your project.
-5. Modify env files in the root directory of the project.
-
-6. Modify the `schema.prisma` file in the `prisma` directory to match your database schema.
-
-7. Run the following command to generate the Prisma client:
-
-   ```bash
-   npx prisma generate
-   ```
-
-8. Run the following command to start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-The server should now be running at http://localhost:5000.
-
-> Note: Don't forget to uncomment the .env files in .gitignore file if you want to push your code to a remote repository.
-
----
 
 ## Tips for Beginners 💡
 
@@ -166,10 +111,6 @@ The server should now be running at http://localhost:5000.
 - **Use Documentation**: Refer to `README.md` files for each folder to understand their purpose and usage. 📄
 - **Experiment**: Modify small parts of the code to see how it affects the application. 🛠️
 
-### Use the Resources 🌐
-
-- **Official Docs**: Check Node.js, Express.js, and Prisma documentation for more details. 📚
-- **Community Help**: Seek assistance in forums like [Stack Overflow](https://stackoverflow.com/) or [Reddit’s LearnProgramming](https://www.reddit.com/r/learnprogramming/). 💬
 
 ### Don’t Rush ⏳
 
@@ -238,8 +179,7 @@ By following these steps, you can effectively customize the template to fit your
 
 ## Creating a Good README
 
-A well-crafted README is essential for any project. It serves as the first point of contact for users and contributors, providing them with a clear understanding of the project’s purpose, setup instructions, and contribution guidelines.For suggestions on how to create a good README, please refer to the [Good README Guide](good-readme.md).
-
+A well-crafted README is essential for any project. It serves as the first point of contact for users and contributors, providing them with a clear understanding of the project’s purpose, setup instructions, and contribution guidelines.For suggestions on how to create a good README,
 ## Contribution
 
 Contributions to enhance the structure or add new features to this boilerplate are welcome. Here are some ways you can contribute:
@@ -248,32 +188,11 @@ Contributions to enhance the structure or add new features to this boilerplate a
 - **Feature Requests**: If you have an idea for a new feature, feel free to suggest it.
 - **Pull Requests**: If you want to contribute code, fork the repository and create a pull request with your changes.
 
-Please check out our [Contributing Guide](contributing.md) for more details.
+
 
 ## License
 
-This project is licensed under the MIT License. This means you are free to use, modify, and distribute the software, provided that you include the original copyright and license notice in any copies of the software. For more details, see the [LICENSE](LICENSE) file.
+This project is licensed under the MIT License. This means you are free to use, modify, and distribute the software, provided that you include the original copyright and license notice in any copies of the software. 
 
----
 
-## [❤️ Sponsor Me](https://github.com/sponsors/MettaSurendhar)
 
-**If you appreciate my work and would like to support me, consider sponsoring me!** Your support helps me continue to create and maintain open-source projects.
-
-- **Why Sponsor?**: Sponsoring helps sustain the development of open-source projects and allows creators to dedicate more time to their work.
-
-## [🍴 Fork this Repository](https://github.com/MettaSurendhar/express-api-boilerplate/fork)
-
-**Fork this repository to customize or contribute to the project!** Forking allows you to make changes independently and contribute back through pull requests.
-
-- **Why Fork?**: Forking lets you create your own copy of the project for personal modifications or development, and it enables collaboration through pull requests.
-
-## [🌟 Star this Repository](https://github.com/MettaSurendhar/express-api-boilerplate)
-
-**Show your support by starring this repository!** Starring helps us gauge interest and lets others know that this project is valuable.
-
-- **Why Star?**: Starring helps indicate the project's usefulness and can attract more contributors.
-
-## [📄 Use This Template](https://github.com/new?template_name=node-express-backend-template-for-intermediate&template_owner=MettaSurendhar)
-
-This repository is designed as a **template** for creating Express.js APIs. You can use this template to kickstart your own projects by clicking the **Use this template** button on GitHub.
