@@ -31,9 +31,6 @@ This template is designed for:
 
 This repository provides a comprehensive template for backend projects, designed to streamline the setup process and ensure best practices are followed. It includes configurations for Node.js with Express.js, database integration using Prisma ORM, and essential middleware for authentication and validation. The template is CI/CD ready, making it easy to deploy and maintain. 🚀
 
-### Tech Stack
-
-[Node.js](https://nodejs.org/en/) | [Express](https://expressjs.com/) | [PostgreSQL](https://www.postgresql.org/) | [Prisma ORM](https://www.prisma.io/) | [JWT](https://jwt.io/) | [Bcrypt](https://www.npmjs.com/package/bcrypt) | [Joi](https://www.npmjs.com/package/joi)
 
 
 
